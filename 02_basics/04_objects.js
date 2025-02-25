@@ -57,21 +57,53 @@ const users = [
 
 users[1].email
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-
-
-console.log(tinderUser.hasOwnProperty('isLoggedn')); //to check if it has value or not
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 
+// console.log(tinderUser.hasOwnProperty('isLoggedn')); //to check if it has value or not
 
 
 
 
+const course = {
+    coursename: "Js in Hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
 
+
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course //de-structer
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+//************************** API ****************** */
+
+
+
+
+// {
+//     "name": "hitesh",
+//     "coursename": "Js in hindi",
+//     "price": "free",
+
+// }
+
+
+
+[
+    {},
+    {},
+    {},
+]
 
 
 
